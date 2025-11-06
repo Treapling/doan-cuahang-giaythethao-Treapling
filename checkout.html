@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thanh toán - StepLab</title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="header-body">
+          <div class="nav_bars">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <img src="./assest/img/StepLab_Logo.svg" alt="StepLab" class="logo" />
+          <div class="nav">
+            <ul>
+              <li><a id="home-link" href="index.html">Trang chủ</a></li>
+              <li><a id="product-link" href="index.html">Sản phẩm</a></li>
+            </ul>
+          </div>
+          <div class="action">
+            <ul>
+              <li class="user-section">
+                <a href="#" class="icon"><i class="fa-solid fa-user"></i></a>
+                <div class="user-links">
+                  <a href="index.html" class="btn">Đăng nhập</a>
+                  <a href="index.html" class="btn">Đăng ký</a>
+                </div>
+              </li>
+              <span id="user-name" class="user-name"></span>
+              <li>
+                <a href="cart.html" class="icon"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+              <li><a href="cart.html" class="btn">Giỏ hàng</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="container-main">
+        <div class="container-right">
+          <h2 style="margin: 20px 0; color: #12283e">Thanh toán</h2>
+          <div
+            id="checkout-area"
+            style="background: #fff; padding: 16px; border-radius: 6px"
+          >
+            <!-- form được chèn bởi JS -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/checkout.js"></script>
+  </body>
+</html>
